@@ -1,0 +1,179 @@
+h2{
+  color: white;
+  font-family: 'Merriweather Sans';
+  text-transform: uppercase;
+}
+
+h3{
+  color: white;
+  font: 18px 'Merriweather Sans', bold;
+}
+
+.content {
+  background-color: black;
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+}
+
+.link--hvr:hover {
+  color: #39F0DE;
+
+}
+
+.footer {
+  display: none;
+}
+
+
+p{
+  font-family: 'Merriweather Sans', sans-serif;
+  color: white;
+  text-decoration: none !important;
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about {
+  background-color: #e5425b;
+  min-height: 100vh;
+  padding: 4em 4em 1em 4em;
+}
+
+.tech-about {
+  margin-top: -0.5em;
+}
+
+.tech-skills {
+  background-color: #343875;
+  min-height: 100vh;
+  padding: 4em 4em 1em 4em;
+}
+
+.additional-skills {
+  background-color: #e5c034;
+  min-height: 100vh;
+  padding: 4em 4em 0 4em;
+}
+
+.contact-about {
+  display: none;
+}
+
+.about-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+
+.about-logo {
+  height: 3em;
+  margin: 2em;
+}
+
+.anchor {
+  color: #39F0DE;
+}
+
+@media only screen and (max-width : 992px) {
+
+  p{
+    font-size: 1em;
+  }
+
+  .tech-about {
+    margin-top: -0.5em;
+  }
+
+  .about {
+    padding: 3em;
+    min-height: 50vh;
+  }
+
+  .tech-skills {
+    padding: 3em;
+    min-height: 50vh;
+  }
+
+  .additional-skills {
+    padding: 3em;
+    min-height: 50vh;
+  }
+
+  .contact-about {
+    min-height: 50vh;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: center;
+  }
+
+}
+
+@media only screen and (max-width : 768px) {
+  .about {
+    padding: 2.5em;
+    min-height: 0;
+  }
+
+  .tech-skills {
+    padding: 2.5em;
+    min-height: 0;
+  }
+
+  .additional-skills {
+    padding: 2.5em;
+    min-height: 0;
+  }
+
+  .contact-about {
+    min-height: 0;
+    padding: 2.5em;
+    display: inline;
+  }
+
+  .about-row {
+    display: inline-block;
+  }
+
+  .tech-about {
+    font-size: 1em;
+  }
+
+}
+
+@media only screen and (max-width : 500px) {
+  .contact-about {
+    display: none;
+  }
+
+  .about {
+    padding: 1.5em;
+  }
+
+  .tech-skills {
+    padding: 1.5em;
+  }
+
+  .additional-skills {
+    padding: 1.5em 1.5em 1em 1.5em;
+  }
+
+}
