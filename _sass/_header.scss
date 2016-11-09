@@ -22,15 +22,14 @@
 .name-title {
   padding: 0 0 0.5em 3.5em;
   text-align: left;
-  display: flex;
-  flex-direction: row;
+  display: inline-block;
 }
 
 .susan-graham {
   font: 'Montserrat', sans-serif;
   color: white;
   text-transform: uppercase;
-  display: flex;
+  display: inline-block;
   margin-bottom: 0;
   text-decoration: none !important;
 }
@@ -41,7 +40,7 @@
 
 .fed-header {
   color: white;
-  display: flex;
+  display: inline-block;
   font: 'Montserrat', sans-serif;
   margin-top: 0;
   text-decoration: none !important;
